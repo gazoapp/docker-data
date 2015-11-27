@@ -1,6 +1,6 @@
 FROM debian:jessie
 
 RUN mkdir -p /data
-VOLUME ["/data"]
+VOLUME /data
 
 CMD ["true"]
